@@ -3,14 +3,15 @@ import java.util.Random;
 public class PiMonteCarlo {
 
     public static void main(String[] args) {
-        
+
         int totalPuntos = 1000000;
 
         double piEstimado = estimarPi(totalPuntos);
 
         System.out.println("Simulación con " + totalPuntos + " puntos.");
         System.out.println("Valor estimado de Pi: " + piEstimado);
-
+        System.out.println("Valor real de Pi: " + Math.PI);
+        System.out.println("Diferencia: " + Math.abs(Math.PI - piEstimado));
     }
 
     public static double estimarPi(int numeroDePuntos) {
