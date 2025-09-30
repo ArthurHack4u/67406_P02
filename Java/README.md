@@ -13,13 +13,11 @@ Hilos usados: 4
 --- Secuencial ---
 
 Pi estimado: 3.140492
-
 Tiempo: 0.0187306 s
 
 --- Paralelo ---
 
 Pi estimado: 3.140232
-
 Tiempo: 0.0150729 s
 
 --- Comparación ---
